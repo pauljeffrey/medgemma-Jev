@@ -8,7 +8,12 @@ authors = [
     { name = "pauljeffrey", email = "drjeffreypaul@gmail.com" },
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "blobfile>=3.3.0",
+    "numpy>=2.5.4",
+    "openai>=3.46.0",
+    "pandas>=3.1.1",
+]
 
 [build-system]
 requires = ["uv_build>=0.11.26,<0.12.0"]
